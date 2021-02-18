@@ -1,10 +1,3 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 let pronoun = ["the", "our"];
 let adj = ["great", "big"];
 let noun = ["jogger", "racoon"];
@@ -17,7 +10,7 @@ pronoun.forEach((elementPronoun, indexPronoun) => {
     noun.forEach((elementNoun, indexNoun) => {
       domain.forEach((elementDomain, indexDomain) => {
         domainNames[i] =
-          elementPronoun + elementAdj + elementNoun + "." + elementDomain;
+          elementPronoun + elementAdj + elementNoun +"."+ elementDomain;
 
         i++;
       });
